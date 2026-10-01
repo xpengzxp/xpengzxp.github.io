@@ -441,7 +441,9 @@ img { max-width: 100%; }
 .work:hover { border-color: var(--line-2); box-shadow: 0 1px 0 rgba(0,0,0,.02), 0 28px 50px -30px rgba(28,26,23,.45); }
 
 .work-art {
-  align-self: start;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
   border-radius: 16px;
   background: var(--bg-2);
   overflow: hidden;
