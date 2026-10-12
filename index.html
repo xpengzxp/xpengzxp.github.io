@@ -39,7 +39,7 @@
   {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
-    "dateModified": "2026-10-01T15:11:00-04:00",
+    "dateModified": "2026-10-12T17:49:29-04:00",
     "mainEntity": {
       "@type": "Person",
       "@id": "https://xpengzxp.github.io/#person",
@@ -60,7 +60,7 @@
         { "@type": "CollegeOrUniversity", "name": "Toyota Technological Institute at Chicago", "url": "https://www.ttic.edu/" },
         { "@type": "CollegeOrUniversity", "name": "Shenzhen University", "url": "https://www.szu.edu.cn/" }
       ],
-      "knowsAbout": ["Robotics", "Generative models", "Flow matching", "Diffusion models"],
+      "knowsAbout": ["Robotics", "Motion planning", "Generative models", "Flow matching", "Diffusion models"],
       "sameAs": ["https://github.com/xpengzxp"]
     }
   }
@@ -74,6 +74,7 @@
     <nav aria-label="Sections">
       <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#research">Research</a>
+      <a class="nav-link" href="#tutorial">Tutorial</a>
       <a class="nav-link" href="#education">Education</a>
       <a class="nav-link" href="#honors">Honors</a>
       <a class="nav-cv" href="CV_Xiaopeng_Zhang.pdf">CV</a>
@@ -170,9 +171,34 @@
       </article>
     </section>
 
+    <!-- ============ Tutorial ============ -->
+    <section class="section container" id="tutorial">
+      <header class="sec-head"><span class="sec-num">04</span><h2 data-words>Tutorial</h2></header>
+
+      <article class="work" data-reveal data-jelly>
+        <div class="work-art" data-replay>
+          <svg class="art-rrt" viewBox="0 0 300 224" role="img" aria-label="Illustration: an RRT tree grows from the start around two obstacles and reaches the goal" style="--n:124">
+            <rect class="rrt-frame" x="4" y="4" width="292" height="216" rx="12"/>
+            <g class="rrt-obs"><rect x="92" y="40" width="46" height="96" rx="6"/><rect x="178" y="118" width="44" height="80" rx="6"/></g>
+            <g class="rrt-tree"><line pathLength="1" style="--i:1" x1="28.0" y1="196.0" x2="36.4" y2="177.8"/><line pathLength="1" style="--i:2" x1="36.4" y1="177.8" x2="50.6" y2="163.8"/><line pathLength="1" style="--i:3" x1="50.6" y1="163.8" x2="66.7" y2="152.0"/><line pathLength="1" style="--i:4" x1="50.6" y1="163.8" x2="41.3" y2="146.0"/><line pathLength="1" style="--i:5" x1="41.3" y1="146.0" x2="32.8" y2="128.0"/><line pathLength="1" style="--i:6" x1="32.8" y1="128.0" x2="31.8" y2="108.0"/><line pathLength="1" style="--i:7" x1="66.7" y1="152.0" x2="85.0" y2="160.3"/><line pathLength="1" style="--i:8" x1="31.8" y1="108.0" x2="35.9" y2="88.4"/><line pathLength="1" style="--i:9" x1="85.0" y1="160.3" x2="103.3" y2="168.4"/><line pathLength="1" style="--i:10" x1="103.3" y1="168.4" x2="116.5" y2="153.4"/><line pathLength="1" style="--i:11" x1="116.5" y1="153.4" x2="133.4" y2="142.7"/><line pathLength="1" style="--i:12" x1="35.9" y1="88.4" x2="40.5" y2="68.9"/><line pathLength="1" style="--i:13" x1="103.3" y1="168.4" x2="95.6" y2="177.8"/><line pathLength="1" style="--i:14" x1="66.7" y1="152.0" x2="60.6" y2="133.0"/><line pathLength="1" style="--i:15" x1="40.5" y1="68.9" x2="27.4" y2="53.8"/><line pathLength="1" style="--i:16" x1="133.4" y1="142.7" x2="153.3" y2="144.8"/><line pathLength="1" style="--i:17" x1="60.6" y1="133.0" x2="77.3" y2="127.5"/><line pathLength="1" style="--i:18" x1="153.3" y1="144.8" x2="155.0" y2="164.8"/><line pathLength="1" style="--i:19" x1="153.3" y1="144.8" x2="165.8" y2="129.2"/><line pathLength="1" style="--i:20" x1="116.5" y1="153.4" x2="126.7" y2="165.5"/><line pathLength="1" style="--i:21" x1="31.8" y1="108.0" x2="51.2" y2="109.7"/><line pathLength="1" style="--i:22" x1="41.3" y1="146.0" x2="21.4" y2="146.9"/><line pathLength="1" style="--i:23" x1="165.8" y1="129.2" x2="170.9" y2="109.9"/><line pathLength="1" style="--i:24" x1="133.4" y1="142.7" x2="142.6" y2="146.1"/><line pathLength="1" style="--i:25" x1="21.4" y1="146.9" x2="25.2" y2="153.9"/><line pathLength="1" style="--i:26" x1="155.0" y1="164.8" x2="166.9" y2="180.8"/><line pathLength="1" style="--i:27" x1="170.9" y1="109.9" x2="188.0" y2="99.5"/><line pathLength="1" style="--i:28" x1="116.5" y1="153.4" x2="117.6" y2="147.1"/><line pathLength="1" style="--i:29" x1="31.8" y1="108.0" x2="14.4" y2="104.0"/><line pathLength="1" style="--i:30" x1="27.4" y1="53.8" x2="43.4" y2="41.7"/><line pathLength="1" style="--i:31" x1="25.2" y1="153.9" x2="24.7" y2="167.8"/><line pathLength="1" style="--i:32" x1="40.5" y1="68.9" x2="44.7" y2="59.5"/><line pathLength="1" style="--i:33" x1="126.7" y1="165.5" x2="120.6" y2="184.5"/><line pathLength="1" style="--i:34" x1="31.8" y1="108.0" x2="30.9" y2="101.4"/><line pathLength="1" style="--i:35" x1="166.9" y1="180.8" x2="164.0" y2="191.7"/><line pathLength="1" style="--i:36" x1="77.3" y1="127.5" x2="83.0" y2="108.3"/><line pathLength="1" style="--i:37" x1="120.6" y1="184.5" x2="109.9" y2="191.9"/><line pathLength="1" style="--i:38" x1="188.0" y1="99.5" x2="204.7" y2="88.6"/><line pathLength="1" style="--i:39" x1="44.7" y1="59.5" x2="58.0" y2="56.2"/><line pathLength="1" style="--i:40" x1="83.0" y1="108.3" x2="74.3" y2="108.9"/><line pathLength="1" style="--i:41" x1="188.0" y1="99.5" x2="181.5" y2="80.6"/><line pathLength="1" style="--i:42" x1="14.4" y1="104.0" x2="9.2" y2="95.1"/><line pathLength="1" style="--i:43" x1="204.7" y1="88.6" x2="219.9" y2="101.6"/><line pathLength="1" style="--i:44" x1="153.3" y1="144.8" x2="154.4" y2="136.5"/><line pathLength="1" style="--i:45" x1="181.5" y1="80.6" x2="187.3" y2="61.5"/><line pathLength="1" style="--i:46" x1="219.9" y1="101.6" x2="230.7" y2="118.5"/><line pathLength="1" style="--i:47" x1="230.7" y1="118.5" x2="239.1" y2="136.6"/><line pathLength="1" style="--i:48" x1="41.3" y1="146.0" x2="37.4" y2="139.9"/><line pathLength="1" style="--i:49" x1="43.4" y1="41.7" x2="30.0" y2="26.8"/><line pathLength="1" style="--i:50" x1="58.0" y1="56.2" x2="67.3" y2="41.8"/><line pathLength="1" style="--i:51" x1="67.3" y1="41.8" x2="84.3" y2="31.3"/><line pathLength="1" style="--i:52" x1="27.4" y1="53.8" x2="11.4" y2="41.9"/><line pathLength="1" style="--i:53" x1="35.9" y1="88.4" x2="36.8" y2="83.6"/><line pathLength="1" style="--i:54" x1="28.0" y1="196.0" x2="15.2" y2="189.9"/><line pathLength="1" style="--i:55" x1="187.3" y1="61.5" x2="183.0" y2="41.9"/><line pathLength="1" style="--i:56" x1="83.0" y1="108.3" x2="80.6" y2="88.4"/><line pathLength="1" style="--i:57" x1="84.3" y1="31.3" x2="104.3" y2="33.0"/><line pathLength="1" style="--i:58" x1="239.1" y1="136.6" x2="241.6" y2="156.4"/><line pathLength="1" style="--i:59" x1="170.9" y1="109.9" x2="150.9" y2="109.1"/><line pathLength="1" style="--i:60" x1="30.0" y1="26.8" x2="32.4" y2="29.3"/><line pathLength="1" style="--i:61" x1="187.3" y1="61.5" x2="206.1" y2="54.8"/><line pathLength="1" style="--i:62" x1="15.2" y1="189.9" x2="14.6" y2="205.8"/><line pathLength="1" style="--i:63" x1="183.0" y1="41.9" x2="163.2" y2="39.2"/><line pathLength="1" style="--i:64" x1="163.2" y1="39.2" x2="162.5" y2="19.2"/><line pathLength="1" style="--i:65" x1="164.0" y1="191.7" x2="158.2" y2="210.9"/><line pathLength="1" style="--i:66" x1="241.6" y1="156.4" x2="253.2" y2="152.8"/><line pathLength="1" style="--i:67" x1="80.6" y1="88.4" x2="82.2" y2="84.3"/><line pathLength="1" style="--i:68" x1="50.6" y1="163.8" x2="55.4" y2="168.6"/><line pathLength="1" style="--i:69" x1="155.0" y1="164.8" x2="159.3" y2="170.0"/><line pathLength="1" style="--i:70" x1="241.6" y1="156.4" x2="240.5" y2="176.4"/><line pathLength="1" style="--i:71" x1="240.5" y1="176.4" x2="236.9" y2="178.2"/><line pathLength="1" style="--i:72" x1="74.3" y1="108.9" x2="72.4" y2="115.7"/><line pathLength="1" style="--i:73" x1="30.0" y1="26.8" x2="16.2" y2="13.8"/><line pathLength="1" style="--i:74" x1="85.0" y1="160.3" x2="81.6" y2="152.0"/><line pathLength="1" style="--i:75" x1="120.6" y1="184.5" x2="132.9" y2="200.2"/><line pathLength="1" style="--i:76" x1="230.7" y1="118.5" x2="246.9" y2="106.8"/><line pathLength="1" style="--i:77" x1="67.3" y1="41.8" x2="72.4" y2="48.9"/><line pathLength="1" style="--i:78" x1="142.6" y1="146.1" x2="144.2" y2="143.8"/><line pathLength="1" style="--i:79" x1="37.4" y1="139.9" x2="32.1" y2="145.4"/><line pathLength="1" style="--i:80" x1="241.6" y1="156.4" x2="230.2" y2="164.0"/><line pathLength="1" style="--i:81" x1="55.4" y1="168.6" x2="58.7" y2="172.1"/><line pathLength="1" style="--i:82" x1="236.9" y1="178.2" x2="236.0" y2="198.2"/><line pathLength="1" style="--i:83" x1="132.9" y1="200.2" x2="122.0" y2="204.9"/><line pathLength="1" style="--i:84" x1="67.3" y1="41.8" x2="56.3" y2="34.4"/><line pathLength="1" style="--i:85" x1="240.5" y1="176.4" x2="260.5" y2="175.9"/><line pathLength="1" style="--i:86" x1="236.0" y1="198.2" x2="242.7" y2="211.9"/><line pathLength="1" style="--i:87" x1="14.6" y1="205.8" x2="12.0" y2="209.9"/><line pathLength="1" style="--i:88" x1="158.2" y1="210.9" x2="157.5" y2="202.2"/><line pathLength="1" style="--i:89" x1="260.5" y1="175.9" x2="255.6" y2="179.8"/><line pathLength="1" style="--i:90" x1="82.2" y1="84.3" x2="79.5" y2="68.9"/><line pathLength="1" style="--i:91" x1="187.3" y1="61.5" x2="174.5" y2="61.9"/><line pathLength="1" style="--i:92" x1="28.0" y1="196.0" x2="45.2" y2="197.3"/><line pathLength="1" style="--i:93" x1="132.9" y1="200.2" x2="127.5" y2="198.9"/><line pathLength="1" style="--i:94" x1="150.9" y1="109.1" x2="159.0" y2="116.9"/><line pathLength="1" style="--i:95" x1="206.1" y1="54.8" x2="224.7" y2="47.4"/><line pathLength="1" style="--i:96" x1="56.3" y1="34.4" x2="59.2" y2="14.6"/><line pathLength="1" style="--i:97" x1="51.2" y1="109.7" x2="56.9" y2="106.5"/><line pathLength="1" style="--i:98" x1="181.5" y1="80.6" x2="166.0" y2="75.8"/><line pathLength="1" style="--i:99" x1="159.3" y1="170.0" x2="165.7" y2="171.1"/><line pathLength="1" style="--i:100" x1="174.5" y1="61.9" x2="167.1" y2="59.7"/><line pathLength="1" style="--i:101" x1="230.7" y1="118.5" x2="227.3" y2="113.6"/><line pathLength="1" style="--i:102" x1="204.7" y1="88.6" x2="204.7" y2="102.1"/><line pathLength="1" style="--i:103" x1="132.9" y1="200.2" x2="143.8" y2="203.8"/><line pathLength="1" style="--i:104" x1="242.7" y1="211.9" x2="256.9" y2="204.0"/><line pathLength="1" style="--i:105" x1="157.5" y1="202.2" x2="166.9" y2="204.2"/><line pathLength="1" style="--i:106" x1="43.4" y1="41.7" x2="46.9" y2="33.3"/><line pathLength="1" style="--i:107" x1="27.4" y1="53.8" x2="28.6" y2="58.1"/><line pathLength="1" style="--i:108" x1="224.7" y1="47.4" x2="243.3" y2="39.9"/><line pathLength="1" style="--i:109" x1="236.0" y1="198.2" x2="230.6" y2="194.6"/><line pathLength="1" style="--i:110" x1="256.9" y1="204.0" x2="258.7" y2="209.2"/><line pathLength="1" style="--i:111" x1="246.9" y1="106.8" x2="264.8" y2="97.8"/><line pathLength="1" style="--i:112" x1="260.5" y1="175.9" x2="280.2" y2="179.5"/><line pathLength="1" style="--i:113" x1="79.5" y1="68.9" x2="63.6" y2="74.3"/><line pathLength="1" style="--i:114" x1="14.4" y1="104.0" x2="13.5" y2="123.2"/><line pathLength="1" style="--i:115" x1="9.2" y1="95.1" x2="13.1" y2="77.0"/><line pathLength="1" style="--i:116" x1="162.5" y1="19.2" x2="153.5" y2="21.4"/><line pathLength="1" style="--i:117" x1="242.7" y1="211.9" x2="231.9" y2="210.1"/><line pathLength="1" style="--i:118" x1="84.3" y1="31.3" x2="83.4" y2="16.2"/><line pathLength="1" style="--i:119" x1="84.3" y1="31.3" x2="84.8" y2="34.9"/><line pathLength="1" style="--i:120" x1="260.5" y1="175.9" x2="266.8" y2="178.3"/><line pathLength="1" style="--i:121" x1="45.2" y1="197.3" x2="50.4" y2="199.2"/><line pathLength="1" style="--i:122" x1="224.7" y1="47.4" x2="211.7" y2="32.2"/><line pathLength="1" style="--i:123" x1="243.3" y1="39.9" x2="261.8" y2="32.5"/><line pathLength="1" style="--i:124" x1="261.8" y1="32.5" x2="268.0" y2="30.0"/></g>
+            <polyline class="rrt-path" points="28.0,196.0 36.4,177.8 50.6,163.8 66.7,152.0 85.0,160.3 103.3,168.4 116.5,153.4 133.4,142.7 153.3,144.8 165.8,129.2 170.9,109.9 188.0,99.5 181.5,80.6 187.3,61.5 206.1,54.8 224.7,47.4 243.3,39.9 261.8,32.5 268.0,30.0" pathLength="1"/>
+            <circle class="rrt-start" cx="28" cy="196" r="6"/>
+            <circle class="rrt-goal" cx="268" cy="30" r="10"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-meta"><span class="tag">Open Source</span><span>Interactive tutorial · in Chinese</span></p>
+          <h3>Planning Algorithms 中文互动教程: An Interactive Companion to LaValle's <em>Planning Algorithms</em></h3>
+          <p>This is a chapter-by-chapter tutorial for Steven M. LaValle's <em>Planning Algorithms</em>. It covers all 15 chapters: discrete planning, configuration spaces, sampling-based motion planning (RRT, PRM), combinatorial and feedback planning, decision theory, information spaces, and planning under differential constraints. Each chapter pairs the explanations with in-browser interactive figures, 200+ in all, plus a runnable Python reference implementation.</p>
+          <p lang="zh-CN">LaValle《规划算法》中文互动教程：15 章全覆盖，每章都有可交互图和 Python 参考实现。</p>
+          <p class="work-links"><a href="https://xpengzxp.github.io/lavalle-planning-algorithms-zh/">Tutorial</a><a href="https://github.com/xpengzxp/lavalle-planning-algorithms-zh">Code</a></p>
+        </div>
+      </article>
+    </section>
+
     <!-- ============ Education ============ -->
     <section class="section container" id="education">
-      <header class="sec-head"><span class="sec-num">04</span><h2 data-words>Education</h2></header>
+      <header class="sec-head"><span class="sec-num">05</span><h2 data-words>Education</h2></header>
       <ol class="timeline">
         <li data-reveal data-jelly>
           <p class="when">2026 – present</p>
@@ -204,7 +230,7 @@
 
     <!-- ============ Honors ============ -->
     <section class="section container" id="honors">
-      <header class="sec-head"><span class="sec-num">05</span><h2 data-words>Honors &amp; Awards</h2></header>
+      <header class="sec-head"><span class="sec-num">06</span><h2 data-words>Honors &amp; Awards</h2></header>
       <ul class="rows" data-stagger>
         <li><time>2024</time><p><span class="row-title">Outstanding Graduate with Honor</span><span class="row-note">Top 1%, Shenzhen University</span></p></li>
         <li><time>2023</time><p><span class="row-title">National First Prize, 14th National Mathematics Competition for College Students</span><span class="row-note">Ranked 36th nationwide</span></p></li>
@@ -219,7 +245,7 @@
 
     <!-- ============ Teaching & Service ============ -->
     <section class="section container" id="teaching">
-      <header class="sec-head"><span class="sec-num">06</span><h2 data-words>Teaching &amp; Service</h2></header>
+      <header class="sec-head"><span class="sec-num">07</span><h2 data-words>Teaching &amp; Service</h2></header>
       <ul class="rows" data-stagger>
         <li><time>Fall 2026</time><p><span class="row-title">Teaching Assistant, CS 439: Introduction to Data Science</span><span class="row-note">Rutgers University</span></p></li>
         <li><time>Oct 2025</time><p><span class="row-title">Volunteer, South Side Science Festival</span><span class="row-note">With RIPL, TTIC · Chicago</span></p></li>

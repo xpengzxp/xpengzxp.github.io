@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://xpengzxp.github.io/sitemap.xml
+Sitemap: https://xpengzxp.github.io/lavalle-planning-algorithms-zh/sitemap.xml

@@ -490,6 +490,19 @@ img { max-width: 100%; }
 .play .art-stack .sil + .sil { transition-delay: .12s; }
 .play .art-stack .art-arrow { stroke-dashoffset: 0; }
 .play .art-stack .blk { animation: blockDrop 1s var(--out) both; animation-delay: calc(var(--i) * 170ms + 550ms); }
+
+/* Tutorial art: an RRT grows around two obstacles, then the found path is traced */
+.art-rrt .rrt-frame { fill: none; stroke: var(--line-2); stroke-width: 1.5; stroke-dasharray: 4 4; }
+.art-rrt .rrt-obs rect { fill: var(--sil); }
+.art-rrt .rrt-tree line { stroke: var(--blk-3); stroke-width: 1.4; stroke-linecap: round; opacity: .7; }
+.art-rrt .rrt-path { fill: none; stroke: var(--accent); stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.art-rrt .rrt-start { fill: var(--blk-3); stroke: var(--card); stroke-width: 2; }
+.art-rrt .rrt-goal { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; }
+.js .art-rrt .rrt-tree line { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.js .art-rrt .rrt-path { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.play .art-rrt .rrt-tree line { animation: rrtGrow .3s var(--out) both; animation-delay: calc(var(--i) * 12ms + 250ms); }
+.play .art-rrt .rrt-path { transition: stroke-dashoffset 1s var(--out); transition-delay: calc(var(--n) * 12ms + 500ms); stroke-dashoffset: 0; }
+@keyframes rrtGrow { to { stroke-dashoffset: 0; } }
 @keyframes blockDrop {
   0%   { opacity: 0; translate: 0 -110px; scale: .9 1.25; }
   45%  { opacity: 1; translate: 0 0;      scale: 1.16 .76; }
